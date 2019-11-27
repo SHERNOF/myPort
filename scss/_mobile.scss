@@ -45,7 +45,7 @@
     transform: translate3d(100%, 0, 0);
 
     .portrait {
-      background: url("/dist/img/1.png");
+      background: url(../img/prof2.png);
       background-size: cover;
       width: 150px;
       height: 150px;
@@ -76,8 +76,56 @@
   }
 
   main#home h2 {
-    font-size: 0.9rem;
+    font-size: 1.3rem;
   }
+
+  main .lg-heading {
+    font-size: 2rem;
+  }
+
+  main#home .profile {
+    margin-top: 25vh;
+  }
+
+  .statement {
+    font-size: 0.85rem;
+    text-align: justify;
+  }
+
+  .appr {
+    display: none;
+  }
+
+  #contact {
+    padding-left: 30px;
+  }
+
+  .boxes {
+    display: flex;
+    flex-flow: column;
+    margin-top: 1rem;
+    // justify-content: flex-start;
+    align-items: flex-start;
+
+    div {
+      font-size: 80%;
+      border: thin set-text-color($primary-color) solid;
+      width: 300px;
+      padding: 1rem 2rem;
+      margin-bottom: 2rem;
+      @include easeOut;
+
+      &:hover {
+        padding: 0.5rem 1.5rem;
+        background: $secondary-color;
+        color: set-text-color($secondary-color);
+        span {
+          color: set-text-color($secondary-color);
+        }
+      }
+    }
+  }
+
   .projects {
     grid-template-columns: 1fr;
   }
