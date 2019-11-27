@@ -315,7 +315,7 @@ p {
     margin-top: 25vh; }
   .statement {
     font-size: 0.85rem;
-    text-align: justify; }
+    text-align: left; }
   .appr {
     display: none; }
   #contact {
