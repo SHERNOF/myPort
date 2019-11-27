@@ -324,7 +324,7 @@ p {
     display: flex;
     flex-flow: column;
     margin-top: 1rem;
-    align-items: flex-start; }
+    text-align: left; }
     .boxes div {
       font-size: 80%;
       border: thin white solid;
