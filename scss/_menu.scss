@@ -10,7 +10,7 @@
 
   .btn-line {
     width: 28px;
-    height: 4px;
+    height: 3px;
     margin: 0 0 5px 0;
     // *
     background: set-text-color($primary-color);
@@ -91,7 +91,7 @@
     .portrait {
       width: 250px;
       height: 250px;
-      background: url(/img/1.png);
+      background: url(/dist/img/1.png);
       background-size: cover;
       border-radius: 50%;
       border: solid 3px $secondary-color;
