@@ -5,11 +5,6 @@ const menuBranding = document.querySelector(".menu-branding");
 const menuNav = document.querySelector(".menu-nav");
 const navItems = document.querySelectorAll(".nav-item");
 
-// DOM Elements
-const time = document.getElementById("time");
-// const greet = document.getElementById("greet");
-// const image = document.getElementById("image");
-
 // Set Initial State of Menu
 let showMenu = false;
 
@@ -35,6 +30,11 @@ function toggleMenu() {
     showMenu = false;
   }
 }
+
+// DOM Elements
+const time = document.getElementById("time");
+// const greet = document.getElementById("greet");
+// const image = document.getElementById("image");
 
 // show the time
 function showTime() {
