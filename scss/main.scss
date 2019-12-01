@@ -160,7 +160,7 @@ main {
     @include easeOut;
 
     &:hover {
-      padding: 0.5rem 1.5rem;
+      padding: 1.25rem 2.25rem;
       background: $secondary-color;
       color: set-text-color($secondary-color);
       span {
@@ -205,6 +205,22 @@ main {
 
 p {
   font-size: 75%;
+}
+
+#arrowR {
+  &:hover {
+    cursor: pointer;
+    color: $secondary-color;
+    @include easeOut;
+  }
+}
+
+#arrowD {
+  &:hover {
+    cursor: pointer;
+    color: $secondary-color;
+    @include easeOut;
+  }
 }
 
 @import "mobile";
