@@ -61,21 +61,21 @@ function showTime() {
 }
 
 // set the greetings
-function greetings() {
-  let tdy = new Date();
-  let hrs = tdy.getHours();
-  let min = tdy.getMinutes();
-  let sec = tdy.getSeconds();
+// function greetings() {
+//   let tdy = new Date();
+//   let hrs = tdy.getHours();
+//   let min = tdy.getMinutes();
+//   let sec = tdy.getSeconds();
 
-  if (hrs < 12) {
-    greet.innerHTML = "Good Morning Sherwin";
-    // document.body.style.backgroundImage = "url('morning.jpg')";
-  } else if (hrs < 18) {
-    greet.innerHTML = "Good Afternoon Sherwin";
-  } else {
-    greet.textContent = "Good Evening Sherwin";
-  }
-}
+//   if (hrs < 12) {
+//     greet.innerHTML = "Good Morning Sherwin";
+//     document.body.style.backgroundImage = "url('morning.jpg')";
+//   } else if (hrs < 18) {
+//     greet.innerHTML = "Good Afternoon Sherwin";
+//   } else {
+//     greet.textContent = "Good Evening Sherwin";
+//   }
+// }
 
 // greetings();
 showTime();
