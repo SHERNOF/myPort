@@ -1,5 +1,6 @@
 @import "config";
 @import "menu";
+@import "arrow";
 
 * {
   box-sizing: border-box;
@@ -207,20 +208,6 @@ p {
   font-size: 75%;
 }
 
-#arrowR {
-  &:hover {
-    cursor: pointer;
-    color: $secondary-color;
-    @include easeOut;
-  }
-}
 
-#arrowD {
-  &:hover {
-    cursor: pointer;
-    color: $secondary-color;
-    @include easeOut;
-  }
-}
 
 @import "mobile";

@@ -1,0 +1,44 @@
+// arrow button
+.arr-btns{
+
+    
+.arr-btn {
+    display: inline-block;  
+    cursor: pointer;
+
+    .first {
+      display: inline-block;
+
+    .arr-line {
+        width: 11px;
+        height: 1px;
+        margin: 1px 2px 3px 0;
+        background: set-text-color($primary-color);
+        @include easeOut;
+        
+        &:nth-child(1) {
+          transform: rotate(20deg);
+        }
+  
+        &:nth-child(2) {
+          transform: rotate(-20deg);
+        }
+      }
+  
+    // arrow toggle
+    &.down {
+        transform: rotate(90deg);
+        @include easeOut;
+        }
+    
+    .third {
+        &.appear {
+        @include easeOut;
+        transition: all 2s linear;
+        }
+        }    
+    }  
+  }
+} 
+    
+  
