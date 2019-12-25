@@ -64,32 +64,33 @@ function showTime() {
   setTimeout(showTime, 1000);
 }
 
+showTime();
+
 // arrow button
-let showDetails = false;
+// let showDetails = false;
 
-arrBtn.addEventListener("click", toggleArrow);
+// arrBtn.addEventListener("click", toggleArrow);
 
-function toggleArrow() {
+// function toggleArrow() {
   
-  let x = document.getElementById('third');
+//   let x = document.getElementById('third');
   
-  if (!showDetails) {
-    first.classList.add("down");
-    if (x.style.visibility = 'hidden') {
-      x.style.visibility = 'visible';
-    } 
-    showDetails = true;
+//   if (!showDetails) {
+//     first.classList.add("down");
+//     if (x.style.visibility = 'hidden') {
+//       x.style.visibility = 'visible';
+//     } 
+//     showDetails = true;
 
-  } else {
-    first.classList.remove("down");
-    x.style.visibility = 'hidden';
+//   } else {
+//     first.classList.remove("down");
+//     x.style.visibility = 'hidden';
     
-    setTimeout(function () {
-      x.classList.remove('appear');
-    }, 20);
-    showDetails = false;
-  }
-}
+//     setTimeout(function () {
+//       x.classList.remove('appear');
+//     }, 20);
+//     showDetails = false;
+//   }
+// }
 
 
-showTime()
