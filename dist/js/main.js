@@ -58,9 +58,7 @@ function showTime() {
   function addZero(e) {
     return (parseInt(e, 10) < 10 ? "0" : "") + e;
   }
-  time.innerHTML = `${hrs}<span>:</span>${addZero(min)}<span>:</span>${addZero(
-    sec
-  )}<span> </span>${amPm}`;
+  time.innerHTML = `${hrs}<span>:</span>${addZero(min)}<span>:</span>${addZero(sec)}<span> </span>${amPm}`;
   setTimeout(showTime, 1000);
 }
 
