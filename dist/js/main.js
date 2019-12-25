@@ -64,6 +64,8 @@ function showTime() {
   setTimeout(showTime, 1000);
 }
 
+showTime();
+
 // arrow button
 // let showDetails = false;
 
@@ -92,4 +94,3 @@ function showTime() {
 // }
 
 
-showTime();
